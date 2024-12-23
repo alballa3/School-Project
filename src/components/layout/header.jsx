@@ -14,7 +14,7 @@ export default function Header() {
       {/* شريط علوي مع اسم المدرسة ومعلومات الاتصال */}
       <div className="bg-blue-600 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center">
-          <span className="text-lg font-semibold mb-2 sm:mb-0">أكاديمية إيفرجرين</span>
+          <span className="text-lg font-semibold mb-2 sm:mb-0">مدرسة الاهلية الخيرية</span>
           <div className="flex items-center space-x-4">
             <a href="tel:+1234567890" className="flex items-center text-sm sm:text-base">
               <Phone className="w-4 h-4 mr-2" />
@@ -34,7 +34,7 @@ export default function Header() {
           <div className="flex justify-between items-center py-6 md:py-8">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 md:w-10 md:h-10 bg-blue-600 rounded-full flex items-center justify-center">
-                <img src="/icon.jfif" alt="أكاديمية إيفرجرين" />
+                <img src="/icon.jfif" alt="مدرسة الاهلية الخيرية" />
               </div>
               <div className="flex flex-col">
                 <span className="text-lg md:text-xl font-bold text-gray-900">مدرسة الاهلية الخيرية</span>
